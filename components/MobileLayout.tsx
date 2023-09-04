@@ -37,7 +37,7 @@ const MobileLayout = ({
   }, [pathname]);
 
   return (
-    <div className=" fixed bg-zinc-50 dark:bg-gray-900 border-b border-zinc-200 top-0 inset-x-0 py-2 px-4">
+    <div className=" fixed z-10 bg-zinc-50 dark:bg-gray-900 border-b border-zinc-200 top-0 inset-x-0 py-2 px-4">
       <div className="w-full flex justify-between items-center">
         <Link
           href={"/dashboard"}

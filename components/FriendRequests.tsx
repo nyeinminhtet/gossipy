@@ -75,7 +75,7 @@ const FriendRequests = ({ incomingFriendRequests, sessionId }: Props) => {
               className="w-8 h-8 bg-indigo-600 hover:bg-indigo-700 grid place-items-center
              rounded-full transition hover:shadow-md"
             >
-              <Check className=" font-semibold text-white w-3/4 h-3/4" />
+              <Check className=" font-semibold text-white w-10 h-10 sm:w-3/4 sm:h-3/4" />
             </button>
             <button
               onClick={() => denyFriend(request.senderId)}
